@@ -6,6 +6,7 @@ import MaterialUICheckbox from './Components/MaterialUICheckbox'
 import MaterialUIRadio from './Components/MaterialUIRadio'
 import MaterialUISlider from './Components/MaterialUISlider'
 import MaterialUIRangeSlider from './Components/MaterialUIRangeSlider'
+import MaterialUISelect from './Components/MaterialUISelect'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <MaterialUIRadio />
     <MaterialUISlider />
     <MaterialUIRangeSlider />
+    <MaterialUISelect />
     </>
   )
 }

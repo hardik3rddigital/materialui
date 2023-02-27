@@ -5,7 +5,7 @@ function MaterialUIGrid() {
     <>
       <h2>MaterialUI - Grid</h2>
       <h4>MaterialUI - Basic Grid</h4>
-      <Grid item container spacing={2} xl={12}>
+      <Grid item container xl={12} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid
           lg={6}
           md={7}

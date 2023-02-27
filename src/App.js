@@ -7,6 +7,7 @@ import MaterialUIRadio from './Components/MaterialUIRadio'
 import MaterialUISlider from './Components/MaterialUISlider'
 import MaterialUIRangeSlider from './Components/MaterialUIRangeSlider'
 import MaterialUISelect from './Components/MaterialUISelect'
+import MaterialUIInput from './Components/MaterialUIInput'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
     <MaterialUISlider />
     <MaterialUIRangeSlider />
     <MaterialUISelect />
+    <MaterialUIInput />
+    
     </>
   )
 }

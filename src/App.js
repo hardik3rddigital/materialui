@@ -3,6 +3,7 @@ import FirstFile from './Components/FirstFile'
 import MaterialUIButton from './Components/MaterialUIButton'
 import MaterialUIButtonGroup from './Components/MaterialUIButtonGroup'
 import MaterialUICheckbox from './Components/MaterialUICheckbox'
+import MaterialUIRadio from './Components/MaterialUIRadio'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <MaterialUIButton />
     <MaterialUIButtonGroup />
     <MaterialUICheckbox />
+    <MaterialUIRadio />
     </>
   )
 }

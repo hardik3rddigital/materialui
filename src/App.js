@@ -15,6 +15,8 @@ import MaterialUIBox from "./Components/MaterialUIBox";
 import MaterialUIContainer from "./Components/MaterialUIContainer";
 import MaterialUIGrid from "./Components/MaterialUIGrid";
 import MaterialUIHidden from "./Components/MaterialUIHidden";
+import MaterialUITab from "./Components/MaterialUITab";
+
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
         <MaterialUIContainer />
         <MaterialUIGrid />
         <MaterialUIHidden />
+        <MaterialUITab />
       </Container>
     </>
   );

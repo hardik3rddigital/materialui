@@ -4,8 +4,8 @@ import VolumeDownIcon from "@mui/icons-material/VolumeDown";
 import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 
 function MaterialUISlider() {
-  const DefaultSliderRange = '40'
-  const [showValue,setshowValue] = useState(DefaultSliderRange);  
+  const DefaultSliderRange = "40";
+  const [showValue, setshowValue] = useState(DefaultSliderRange);
 
   const mark = [
     {
@@ -35,11 +35,9 @@ function MaterialUISlider() {
   ];
 
   const SliderRange = (event) => {
-    console.log(event.target.value)
-    setshowValue(event.target.value)
+    console.log(event.target.value);
+    setshowValue(event.target.value);
   };
-
-
 
   return (
     <>
@@ -147,10 +145,11 @@ function MaterialUISlider() {
         />
 
         <VolumeUpIcon color="primary" />
-        <div className="" style={{fontWeight:"Bold"
-        }}>{showValue}</div>
+
+        <div className="" style={{ fontWeight: "Bold" }}>
+          {showValue}
+        </div>
       </div>
-      
     </>
   );
 }

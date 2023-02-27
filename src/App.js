@@ -9,6 +9,7 @@ import MaterialUIRangeSlider from './Components/MaterialUIRangeSlider'
 import MaterialUISelect from './Components/MaterialUISelect'
 import MaterialUIInput from './Components/MaterialUIInput'
 import MaterialUISwitch from './Components/MaterialUISwitch'
+import MaterialUIBox from './Components/MaterialUIBox'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <MaterialUISelect />
     <MaterialUIInput />
     <MaterialUISwitch />
+    <MaterialUIBox />
 
     </>
   )

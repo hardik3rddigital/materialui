@@ -1,4 +1,6 @@
 import React from "react";
+import { Container } from "@mui/material";
+
 import FirstFile from "./Components/FirstFile";
 import MaterialUIButton from "./Components/MaterialUIButton";
 import MaterialUIButtonGroup from "./Components/MaterialUIButtonGroup";
@@ -11,7 +13,7 @@ import MaterialUIInput from "./Components/MaterialUIInput";
 import MaterialUISwitch from "./Components/MaterialUISwitch";
 import MaterialUIBox from "./Components/MaterialUIBox";
 import MaterialUIContainer from "./Components/MaterialUIContainer";
-import { Container } from "@mui/material";
+import MaterialUIGrid from "./Components/MaterialUIGrid";
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
         <MaterialUISwitch />
         <MaterialUIBox />
         <MaterialUIContainer />
+        <MaterialUIGrid />
       </Container>
     </>
   );

@@ -4,6 +4,7 @@ import MaterialUIButton from './Components/MaterialUIButton'
 import MaterialUIButtonGroup from './Components/MaterialUIButtonGroup'
 import MaterialUICheckbox from './Components/MaterialUICheckbox'
 import MaterialUIRadio from './Components/MaterialUIRadio'
+import MaterialUISlider from './Components/MaterialUISlider'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <MaterialUIButtonGroup />
     <MaterialUICheckbox />
     <MaterialUIRadio />
+    <MaterialUISlider />
     </>
   )
 }
